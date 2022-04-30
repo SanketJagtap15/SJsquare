@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-tab-wrap {
   position: relative;
 }
+
+.fh5co-tab-wrap .heading{
+  text-align: center;
+}
 .fh5co-tab-wrap .fh5co-tab-menu {
   list-style: none;
   text-align: center;
