@@ -308,6 +308,15 @@ figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
+
+.fh5co-social h3{
+  margin-bottom: -0.3rem;
+  margin-top: 8.5rem;
+  color:aqua;
+  font-size: 2.2rem;
+  font-family: cookie,sans-serif;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-social li a {
     padding: 10px 8px;
