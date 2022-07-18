@@ -59,6 +59,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
+h1{
+  color: #17e7a4;
+  display: none;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #17e7a4;
@@ -317,7 +322,7 @@ figure {
 .fh5co-social h3{
   margin-bottom: 0rem;
   margin-top: 0rem;
-  color:aqua;
+  color:#17e7a4;
   font-size: 2.2rem;
   font-family: cookie,sans-serif;
 }
@@ -447,6 +452,18 @@ figure {
   display: none;
 }
 
+#grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+h1{
+  color: #17e7a4;
+  display: block;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 }
 
 .row-bottom-padded-lg {
@@ -465,6 +482,19 @@ figure {
   .row-bottom-padded-md {
     padding-bottom: 1em;
   }
+
+  #grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+h1{
+  color: #17e7a4;
+  display: block;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 }
 
 .row-bottom-padded-sm {
