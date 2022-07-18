@@ -1,21 +1,23 @@
-.resume {
-    padding-left: 0rem;
-    background-color:dimgrey;
-   
+body{
+    background: rgb(46, 46, 46);
+    padding: 0;
 }
+
+
 .resume img{
     border: 12px;
     border-color: rgb(0, 1, 1);
     padding-top: 5rem;
     position:absolute;
+    transform: translateX(0%);
 }
 
 .this{
+    color: bisque;
     font-size: 2rem;
-    text-align: center;
     padding: 1rem;
-    background-color: rgb(148, 205, 166);
-    width: 30%;
-    
+    background-color: rgb(0, 0, 0);
     margin-top: 3rem;
+    width: 40%;
+    transform: translateX(60%);
 } 
