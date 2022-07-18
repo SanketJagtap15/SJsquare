@@ -30,6 +30,11 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
   }
+  
+}
+
+#resume{
+  display: none;
 }
 
 a {
@@ -431,6 +436,17 @@ figure {
     float: none;
     width: 100%;
   }
+
+
+#resume{
+  display: block;
+  margin-left: 10rem;
+}
+
+#cv{
+  display: none;
+}
+
 }
 
 .row-bottom-padded-lg {
