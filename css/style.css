@@ -427,6 +427,11 @@ figure {
 #fh5co-footer .fh5co-author {
   display: block;
 }
+
+#tech{
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-author {
     display: -moz-inline-stack;
