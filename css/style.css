@@ -489,7 +489,7 @@ h1{
   }
 
   #grid{
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -528,7 +528,76 @@ h1{
   background: #282727;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 990px) {
+  #grid{
+    display: none;
+    /* grid-template-columns: repeat(6, 1fr); */
+  }
+
+  .progress-wrap {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .progress-wrap h3 {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+  }
+  .progress-wrap h3 .name-left {
+    float: left;
+    /* margin-left: 10rem; */
+  }
+  .progress-wrap h3 .value-right {
+    float: right;
+    /* margin-right: 10rem; */
+  }
+  
+  .progress {
+    width: 100%;
+    float: left;
+    height: 5px;
+    box-shadow: none;
+    display: grid;
+    background-color: #d2d2d2;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* margin-left: 10rem; */
+  }
+
+  .col-md-12 p{
+    margin-bottom: 5rem;
+  }
+  
+  .progress-bar {
+    background-color: #2F3C4F;
+    height: 5px;
+    display: block;
+    box-shadow: none;
+  }
+  .progress-bar.progress-bar-1 {
+    background-color: #17e7a4 !important;
+  }
+
+  .bar_left{
+      width: 74%;
+      transform: translateX(15%);
+      /* margin-top: 10rem; */
+  }
+
+  .bar_right{
+    width: 80%;
+    transform: translateX(10%);
+}
+
+#tech{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (max-width: 550px) {
   #grid{
     display: none;
     /* grid-template-columns: repeat(6, 1fr); */
@@ -595,4 +664,5 @@ h1{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+
 }
