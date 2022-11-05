@@ -5,6 +5,7 @@ body{
 
 
 .resume img{
+    width: 100%;
     border: 12px;
     border-color: rgb(0, 1, 1);
     padding-top: 5rem;
