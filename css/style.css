@@ -100,6 +100,15 @@ h1{
   }
 }
 
+ul{
+  margin-top: -2rem;
+}
+
+ul .exp{
+  padding: 0.1rem 0;
+  font-size: 1.5rem;
+}
+
 .fh5co-tab-wrap {
   position: relative;
 }
@@ -368,6 +377,17 @@ figure {
   .fh5co-feature .fh5co-text {
     width: 72%;
   }
+
+
+ul{
+  margin-top: -3.5rem;
+}
+
+ul .exp{
+  padding: 0.3rem 0;
+  font-size: 1.5rem;
+}
+
 }
 .fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
   margin: 0;
@@ -376,8 +396,9 @@ figure {
 .fh5co-feature .fh5co-text h3 {
   font-weight: 300;
   margin-bottom: 10px;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
+  margin-top: 0.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
 }
 .fh5co-feature .fh5co-text h2 {
   font-size: 16px;
