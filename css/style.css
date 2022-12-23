@@ -469,14 +469,14 @@ ul .exp{
   }
 
 
-#resume{
+/* #resume{
   display: block;
   margin-left: 10rem;
 }
 
 #cv{
   display: none;
-}
+} */
 
 #grid{
   display: grid;
